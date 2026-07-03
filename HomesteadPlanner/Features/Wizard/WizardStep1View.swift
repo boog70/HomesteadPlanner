@@ -55,6 +55,7 @@ struct FamilyFormView: View {
                 state.addFamilyMember()
             }
             .buttonStyle(.bordered)
+            .tint(.green)
         }
     }
 }

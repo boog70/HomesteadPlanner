@@ -20,6 +20,8 @@ struct WizardStep3View: View {
                 Button("Next: Share") {
                     path?.wrappedValue.append(Route.step4)
                 }
+                .buttonStyle(.borderedProminent)
+                .tint(.green)
             }
         }
         .navigationTitle("Your plan")

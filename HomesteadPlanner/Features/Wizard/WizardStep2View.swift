@@ -46,8 +46,8 @@ struct WizardStep2View: View {
                                     error = nil
                                 }
                             }
-                            .buttonStyle(.bordered)
-                            .tint(state.zoneInfo?.zone == z ? .green : .gray)
+                            .buttonStyle(state.zoneInfo?.zone == z ? .borderedProminent : .bordered)
+                            .tint(.green)
                         }
                     }
 
@@ -68,6 +68,7 @@ struct WizardStep2View: View {
                 HStack {
                     Button("Back") { path?.wrappedValue.removeLast() }
                         .buttonStyle(.bordered)
+                        .tint(.green)
                     Spacer()
                     Button("Next: Your plan") {
                         path?.wrappedValue.append(Route.step3)
