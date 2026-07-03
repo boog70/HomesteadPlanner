@@ -1,0 +1,77 @@
+[
+  {
+    "id": "chicken_eggs",
+    "name": "Chicken (Eggs)",
+    "products": [
+      {
+        "product": "eggs",
+        "annualYield": 240,
+        "unit": "eggs",
+        "caloriesPerUnit": 70,
+        "proteinPerUnit": 6
+      }
+    ],
+    "notes": "High-producing breeds lay 250-300 eggs/year. Dual-purpose breeds 180-200.",
+    "sqFtPerAnimal": 50
+  },
+  {
+    "id": "chicken_meat",
+    "name": "Chicken (Meat)",
+    "products": [
+      {
+        "product": "meat",
+        "annualYield": 2.5,
+        "unit": "lbs",
+        "caloriesPerUnit": 650,
+        "proteinPerUnit": 75
+      }
+    ],
+    "notes": "~8-12 weeks to process. Live weight 4-6 lbs yields ~65-70% dressed.",
+    "sqFtPerAnimal": 50
+  },
+  {
+    "id": "rabbit",
+    "name": "Rabbit",
+    "products": [
+      {
+        "product": "meat",
+        "annualYield": 20,
+        "unit": "lbs",
+        "caloriesPerUnit": 700,
+        "proteinPerUnit": 85
+      }
+    ],
+    "notes": "One doe can produce 15-25 lbs meat/year. Small footprint, quick breeding.",
+    "sqFtPerAnimal": 15
+  },
+  {
+    "id": "duck_eggs",
+    "name": "Duck (Eggs)",
+    "products": [
+      {
+        "product": "eggs",
+        "annualYield": 175,
+        "unit": "eggs",
+        "caloriesPerUnit": 130,
+        "proteinPerUnit": 9
+      }
+    ],
+    "notes": "150-200 eggs/year. Larger eggs, richer than chicken.",
+    "sqFtPerAnimal": 60
+  },
+  {
+    "id": "goat_milk",
+    "name": "Goat (Milk)",
+    "products": [
+      {
+        "product": "milk",
+        "annualYield": 365,
+        "unit": "quarts",
+        "caloriesPerUnit": 150,
+        "proteinPerUnit": 8
+      }
+    ],
+    "notes": "1-2 quarts/day. ~150 cal/cup. Optional meat from culled animals.",
+    "sqFtPerAnimal": 200
+  }
+]

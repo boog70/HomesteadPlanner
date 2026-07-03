@@ -1,0 +1,20 @@
+{
+  "3a": { "lastSpringFrost": "June 1", "firstFallFrost": "September 1", "lastSpringFrostDayOfYear": 152, "firstFallFrostDayOfYear": 244 },
+  "3b": { "lastSpringFrost": "May 25", "firstFallFrost": "September 8", "lastSpringFrostDayOfYear": 145, "firstFallFrostDayOfYear": 251 },
+  "4a": { "lastSpringFrost": "May 20", "firstFallFrost": "September 15", "lastSpringFrostDayOfYear": 140, "firstFallFrostDayOfYear": 258 },
+  "4b": { "lastSpringFrost": "May 15", "firstFallFrost": "September 20", "lastSpringFrostDayOfYear": 135, "firstFallFrostDayOfYear": 263 },
+  "5a": { "lastSpringFrost": "May 10", "firstFallFrost": "September 25", "lastSpringFrostDayOfYear": 130, "firstFallFrostDayOfYear": 268 },
+  "5b": { "lastSpringFrost": "May 5", "firstFallFrost": "October 1", "lastSpringFrostDayOfYear": 125, "firstFallFrostDayOfYear": 274 },
+  "6a": { "lastSpringFrost": "May 5", "firstFallFrost": "October 10", "lastSpringFrostDayOfYear": 125, "firstFallFrostDayOfYear": 283 },
+  "6b": { "lastSpringFrost": "April 30", "firstFallFrost": "October 10", "lastSpringFrostDayOfYear": 120, "firstFallFrostDayOfYear": 283 },
+  "7a": { "lastSpringFrost": "April 20", "firstFallFrost": "October 20", "lastSpringFrostDayOfYear": 110, "firstFallFrostDayOfYear": 293 },
+  "7b": { "lastSpringFrost": "April 10", "firstFallFrost": "November 5", "lastSpringFrostDayOfYear": 100, "firstFallFrostDayOfYear": 309 },
+  "8a": { "lastSpringFrost": "April 1", "firstFallFrost": "November 15", "lastSpringFrostDayOfYear": 91, "firstFallFrostDayOfYear": 319 },
+  "8b": { "lastSpringFrost": "March 25", "firstFallFrost": "November 20", "lastSpringFrostDayOfYear": 84, "firstFallFrostDayOfYear": 324 },
+  "9a": { "lastSpringFrost": "March 15", "firstFallFrost": "November 25", "lastSpringFrostDayOfYear": 74, "firstFallFrostDayOfYear": 329 },
+  "9b": { "lastSpringFrost": "March 1", "firstFallFrost": "December 5", "lastSpringFrostDayOfYear": 60, "firstFallFrostDayOfYear": 339 },
+  "10a": { "lastSpringFrost": "February 15", "firstFallFrost": "December 15", "lastSpringFrostDayOfYear": 46, "firstFallFrostDayOfYear": 349 },
+  "10b": { "lastSpringFrost": "February 1", "firstFallFrost": "December 20", "lastSpringFrostDayOfYear": 32, "firstFallFrostDayOfYear": 354 },
+  "11a": { "lastSpringFrost": "January 15", "firstFallFrost": "December 31", "lastSpringFrostDayOfYear": 15, "firstFallFrostDayOfYear": 365 },
+  "11b": { "lastSpringFrost": "January 1", "firstFallFrost": "December 31", "lastSpringFrostDayOfYear": 1, "firstFallFrostDayOfYear": 365 }
+}

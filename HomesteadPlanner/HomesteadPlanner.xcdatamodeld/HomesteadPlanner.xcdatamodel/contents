@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PlanSettings" representedClassName="PlanSettings" syncable="YES" codeGenerationType="class">
+        <attribute name="animalPlanOverridesData" optional="YES" attributeType="Binary"/>
+        <attribute name="availableSqFt" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="cropPlanOverridesData" optional="YES" attributeType="Binary"/>
+        <attribute name="fruitPlanOverridesData" optional="YES" attributeType="Binary"/>
+        <attribute name="fruitPreference" optional="YES" attributeType="String"/>
+        <attribute name="nutritionNeedsData" optional="YES" attributeType="Binary"/>
+        <attribute name="zoneInfoData" optional="YES" attributeType="Binary"/>
+        <attribute name="zipCode" optional="YES" attributeType="String"/>
+        <attribute name="animalSplitData" optional="YES" attributeType="Binary"/>
+    </entity>
+    <entity name="FamilyMemberEntity" representedClassName="FamilyMemberEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="activityLevel" optional="YES" attributeType="String"/>
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="heightCm" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isLactating" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isPregnant" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="unitSystem" optional="YES" attributeType="String"/>
+        <attribute name="weightKg" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="HarvestEntryEntity" representedClassName="HarvestEntryEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="calories" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="cropId" optional="YES" attributeType="String"/>
+        <attribute name="fruitId" optional="YES" attributeType="String"/>
+        <attribute name="harvestDate" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="lbs" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+    </entity>
+</model>

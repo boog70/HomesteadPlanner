@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A35DEA65E7CD3DD6DA1957 /* HomesteadPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87F7B94CFA0FEA6305887783 /* HomesteadPlanner.xcdatamodeld */; };
+		07F1DC1B0B7072AEC7B246CD /* fruits.json in Resources */ = {isa = PBXBuildFile; fileRef = A447691B4D2BEB977299CD14 /* fruits.json */; };
+		0B6EEC1D5F31E568545D57FB /* ZoneInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC4A3821933D0D3A497B870 /* ZoneInfo.swift */; };
+		2521A9F063399D743A05C063 /* FamilyMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4D97058FDB8CDB9375F894 /* FamilyMember.swift */; };
+		35BA7E7430295A174535A3D3 /* PlantingCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A1EB13DFD1F0838C84E55A /* PlantingCalendarView.swift */; };
+		3C67033A495AD7183DB35433 /* ProductionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553B984F3E62D814E366DCE2 /* ProductionService.swift */; };
+		42347D2116489380BF9B231F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FBCE152968A0EBBE1993E /* SettingsView.swift */; };
+		4472C097B39098EEE13A5E0E /* WizardStep5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B257D3BF92407FD1DB83EDD0 /* WizardStep5View.swift */; };
+		45C347F581B6721A4A27E506 /* frostDates.json in Resources */ = {isa = PBXBuildFile; fileRef = C81A88AA1AEAE1872CE13BA4 /* frostDates.json */; };
+		49D12346EA79B6712706B398 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC782BB8AAF5FD4E255F39 /* SplashView.swift */; };
+		4EE5A63FED2D0DF131AD8937 /* HarvestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732FE5C1612F3C99AA72BE3 /* HarvestModels.swift */; };
+		51528790883BBC4224C100C4 /* HomesteadPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77EAF2775A332350A0A30F /* HomesteadPlannerApp.swift */; };
+		5179A596F6BDA9DEE8856D71 /* AnimalPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A73A5C1CCF09E158AE72FC /* AnimalPlanView.swift */; };
+		5A950760FD09581ACE93DB17 /* CropModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F6F95F5306ADE02F560B31 /* CropModels.swift */; };
+		5DFE327A9A5D9DA9FA51D3E6 /* ProductionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4898A6CCC2068AC8AFBA503A /* ProductionModels.swift */; };
+		605918DCCAF10B7FBDB82A16 /* CalendarModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74909EB76D396A40E10EC6C5 /* CalendarModels.swift */; };
+		6400B4849672CCB8931EB1F1 /* ProductionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32552EABC4D39571DB06B6D /* ProductionTableView.swift */; };
+		6576F5CA4B5ED6CA5625DA0A /* ZoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF918955B6F6D243AF107492 /* ZoneService.swift */; };
+		7FF3F73013218CC9FF3E9DBD /* CalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6CF76FDF3BDC3EF67206E /* CalendarService.swift */; };
+		8C58C3453A54D463A7F4EEF5 /* FruitPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972ACACF9E88221217BF5AC /* FruitPlanView.swift */; };
+		90BF8E577635DE2FB8E01D03 /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8CFBE1028AE696BEE6A1A3 /* TermsView.swift */; };
+		A3C643AF7FE9F3ADAB9E1620 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D2B032828B009D850AE8F0 /* ContentView.swift */; };
+		A450320E13F8D6BDAFFBCE88 /* AnimalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11DC232345BC6AAB97E4A3F /* AnimalModels.swift */; };
+		A662A6A0135D912B41CAE68C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A834A8391539F3937F00F41 /* AppState.swift */; };
+		AFAF936AA046F14A9054DA6A /* HarvestLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7FEAE8F96B035C21CDA81A /* HarvestLogView.swift */; };
+		B6F16125616D7603283E2681 /* WizardStep3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A97534CC3702BED433059 /* WizardStep3View.swift */; };
+		C23B0B2FC1D8AB9C1A27AE08 /* WizardStep2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC008E32260D1F3C15C19B3 /* WizardStep2View.swift */; };
+		C2747ECFF469CEB8D50540CB /* FruitModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21948196D1A3B5ED93CE5EC /* FruitModels.swift */; };
+		C83B2E59B0EC8210AA0F9FCF /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74CDD6BCCB8AE7C3110BCA /* PersistenceController.swift */; };
+		C85FFB77B439FD545E3CB89D /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4874A4A49A03F5B0FA2E5E90 /* DataLoader.swift */; };
+		CD6BD8D40E70E6525ECEB31E /* PlanRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C2504DB029CB0D8339781C /* PlanRepository.swift */; };
+		D4AD6DB0FD760D64FE9F93D1 /* WizardStep4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BAD4F076C2B1B738BCB29C /* WizardStep4View.swift */; };
+		DD4F87774A86C585CB2E762D /* WizardStep1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757647B595C247B4FB97D3D /* WizardStep1View.swift */; };
+		E1BE209F611E0F8AAFBA046C /* HomesteadPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B02AC093CBC486315A857B5 /* HomesteadPlannerTests.swift */; };
+		E6E15A5CA1FD6AE9EB835D5A /* NutritionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2050B075A4A3C4D55062C2 /* NutritionService.swift */; };
+		F14A099B91758E7DA546B5B9 /* crops.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B80F64ECD7C4A5B9CF8B3B6 /* crops.json */; };
+		F4ADC156501CEED094E43475 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E8A02D9CA8C27E225DE936 /* PrivacyView.swift */; };
+		F73D36D1D1F1070EC5983F63 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = E89D07F522216F163041B217 /* animals.json */; };
+		F978FDE70DABDCE1BFDC107D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797F6D9DA998AB8B5F287477 /* Assets.xcassets */; };
+		FE5C4685F4355716800461F7 /* PlanHarvestCompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB25770193FC6ED16C6523FB /* PlanHarvestCompareView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C4ECF4C675B98AF8EFE38E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CA3534BC36A919C7D63176F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D471F0218D09FB755D1C2A81;
+			remoteInfo = HomesteadPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1757647B595C247B4FB97D3D /* WizardStep1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardStep1View.swift; sourceTree = "<group>"; };
+		1ABE24E02A1D73986B9C0F08 /* HomesteadPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomesteadPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C2504DB029CB0D8339781C /* PlanRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanRepository.swift; sourceTree = "<group>"; };
+		2955FA9961D8EB6E7E52AC61 /* HomesteadPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomesteadPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A77EAF2775A332350A0A30F /* HomesteadPlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomesteadPlannerApp.swift; sourceTree = "<group>"; };
+		2B8CFBE1028AE696BEE6A1A3 /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
+		2F7A97534CC3702BED433059 /* WizardStep3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardStep3View.swift; sourceTree = "<group>"; };
+		4874A4A49A03F5B0FA2E5E90 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		4898A6CCC2068AC8AFBA503A /* ProductionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionModels.swift; sourceTree = "<group>"; };
+		4B2050B075A4A3C4D55062C2 /* NutritionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionService.swift; sourceTree = "<group>"; };
+		4B80F64ECD7C4A5B9CF8B3B6 /* crops.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = crops.json; sourceTree = "<group>"; };
+		553B984F3E62D814E366DCE2 /* ProductionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionService.swift; sourceTree = "<group>"; };
+		5A834A8391539F3937F00F41 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		6EC008E32260D1F3C15C19B3 /* WizardStep2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardStep2View.swift; sourceTree = "<group>"; };
+		74909EB76D396A40E10EC6C5 /* CalendarModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModels.swift; sourceTree = "<group>"; };
+		797F6D9DA998AB8B5F287477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B02AC093CBC486315A857B5 /* HomesteadPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomesteadPlannerTests.swift; sourceTree = "<group>"; };
+		82FC782BB8AAF5FD4E255F39 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		84A6CF76FDF3BDC3EF67206E /* CalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarService.swift; sourceTree = "<group>"; };
+		88A1EB13DFD1F0838C84E55A /* PlantingCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantingCalendarView.swift; sourceTree = "<group>"; };
+		8CC4A3821933D0D3A497B870 /* ZoneInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneInfo.swift; sourceTree = "<group>"; };
+		92E4A1AB00D91B3206C3CC8B /* HomesteadPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomesteadPlanner.xcdatamodel; sourceTree = "<group>"; };
+		A0BAD4F076C2B1B738BCB29C /* WizardStep4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardStep4View.swift; sourceTree = "<group>"; };
+		A1E8A02D9CA8C27E225DE936 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		A447691B4D2BEB977299CD14 /* fruits.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fruits.json; sourceTree = "<group>"; };
+		AB4D97058FDB8CDB9375F894 /* FamilyMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMember.swift; sourceTree = "<group>"; };
+		AB74CDD6BCCB8AE7C3110BCA /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		AF918955B6F6D243AF107492 /* ZoneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneService.swift; sourceTree = "<group>"; };
+		B257D3BF92407FD1DB83EDD0 /* WizardStep5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardStep5View.swift; sourceTree = "<group>"; };
+		B972ACACF9E88221217BF5AC /* FruitPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitPlanView.swift; sourceTree = "<group>"; };
+		BB25770193FC6ED16C6523FB /* PlanHarvestCompareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanHarvestCompareView.swift; sourceTree = "<group>"; };
+		C1A73A5C1CCF09E158AE72FC /* AnimalPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalPlanView.swift; sourceTree = "<group>"; };
+		C4D2B032828B009D850AE8F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C70600A49EC6E821C084C317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C732FE5C1612F3C99AA72BE3 /* HarvestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarvestModels.swift; sourceTree = "<group>"; };
+		C81A88AA1AEAE1872CE13BA4 /* frostDates.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = frostDates.json; sourceTree = "<group>"; };
+		CD8FBCE152968A0EBBE1993E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D11DC232345BC6AAB97E4A3F /* AnimalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModels.swift; sourceTree = "<group>"; };
+		D32552EABC4D39571DB06B6D /* ProductionTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionTableView.swift; sourceTree = "<group>"; };
+		E89D07F522216F163041B217 /* animals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		F21948196D1A3B5ED93CE5EC /* FruitModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModels.swift; sourceTree = "<group>"; };
+		F6F6F95F5306ADE02F560B31 /* CropModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropModels.swift; sourceTree = "<group>"; };
+		FE7FEAE8F96B035C21CDA81A /* HarvestLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarvestLogView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		006CE9F5BEC37FC6844BB6F5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CE8983E0A0D474D76D231236 /* Animals */,
+				D837A9F4FDE3470135F7D1BA /* Calendar */,
+				55CC8AA2A27B6061F54130D2 /* Harvests */,
+				2F6EA488AF705206A0247173 /* Legal */,
+				754A456E41F399E6194B2463 /* Production */,
+				54B9A027859CB62F3DFE98DB /* Settings */,
+				5B35B149CD49DFFE588D6A16 /* Wizard */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		22606FA464B17A2F7125A9B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E89D07F522216F163041B217 /* animals.json */,
+				4B80F64ECD7C4A5B9CF8B3B6 /* crops.json */,
+				C81A88AA1AEAE1872CE13BA4 /* frostDates.json */,
+				A447691B4D2BEB977299CD14 /* fruits.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DDDEBD0833C36BC4D63888D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE24E02A1D73986B9C0F08 /* HomesteadPlanner.app */,
+				2955FA9961D8EB6E7E52AC61 /* HomesteadPlannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F6EA488AF705206A0247173 /* Legal */ = {
+			isa = PBXGroup;
+			children = (
+				A1E8A02D9CA8C27E225DE936 /* PrivacyView.swift */,
+				2B8CFBE1028AE696BEE6A1A3 /* TermsView.swift */,
+			);
+			path = Legal;
+			sourceTree = "<group>";
+		};
+		4A60319C6C8B0831F7513E38 /* HomesteadPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B02AC093CBC486315A857B5 /* HomesteadPlannerTests.swift */,
+			);
+			path = HomesteadPlannerTests;
+			sourceTree = "<group>";
+		};
+		54B9A027859CB62F3DFE98DB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CD8FBCE152968A0EBBE1993E /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		55CC8AA2A27B6061F54130D2 /* Harvests */ = {
+			isa = PBXGroup;
+			children = (
+				FE7FEAE8F96B035C21CDA81A /* HarvestLogView.swift */,
+				BB25770193FC6ED16C6523FB /* PlanHarvestCompareView.swift */,
+			);
+			path = Harvests;
+			sourceTree = "<group>";
+		};
+		5B35B149CD49DFFE588D6A16 /* Wizard */ = {
+			isa = PBXGroup;
+			children = (
+				82FC782BB8AAF5FD4E255F39 /* SplashView.swift */,
+				1757647B595C247B4FB97D3D /* WizardStep1View.swift */,
+				6EC008E32260D1F3C15C19B3 /* WizardStep2View.swift */,
+				2F7A97534CC3702BED433059 /* WizardStep3View.swift */,
+				A0BAD4F076C2B1B738BCB29C /* WizardStep4View.swift */,
+				B257D3BF92407FD1DB83EDD0 /* WizardStep5View.swift */,
+			);
+			path = Wizard;
+			sourceTree = "<group>";
+		};
+		625BAFE395C48A12C956B638 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				AB74CDD6BCCB8AE7C3110BCA /* PersistenceController.swift */,
+				23C2504DB029CB0D8339781C /* PlanRepository.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		754A456E41F399E6194B2463 /* Production */ = {
+			isa = PBXGroup;
+			children = (
+				B972ACACF9E88221217BF5AC /* FruitPlanView.swift */,
+				D32552EABC4D39571DB06B6D /* ProductionTableView.swift */,
+			);
+			path = Production;
+			sourceTree = "<group>";
+		};
+		92A38AF1A58EA9FB9D8AFC66 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D11DC232345BC6AAB97E4A3F /* AnimalModels.swift */,
+				74909EB76D396A40E10EC6C5 /* CalendarModels.swift */,
+				F6F6F95F5306ADE02F560B31 /* CropModels.swift */,
+				AB4D97058FDB8CDB9375F894 /* FamilyMember.swift */,
+				F21948196D1A3B5ED93CE5EC /* FruitModels.swift */,
+				C732FE5C1612F3C99AA72BE3 /* HarvestModels.swift */,
+				4898A6CCC2068AC8AFBA503A /* ProductionModels.swift */,
+				8CC4A3821933D0D3A497B870 /* ZoneInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4F5707FCE8CA942F9A005B9 = {
+			isa = PBXGroup;
+			children = (
+				EA77D2ABC2693580C02632ED /* HomesteadPlanner */,
+				4A60319C6C8B0831F7513E38 /* HomesteadPlannerTests */,
+				2DDDEBD0833C36BC4D63888D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7998F062F769F907B404C91 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84A6CF76FDF3BDC3EF67206E /* CalendarService.swift */,
+				4874A4A49A03F5B0FA2E5E90 /* DataLoader.swift */,
+				4B2050B075A4A3C4D55062C2 /* NutritionService.swift */,
+				553B984F3E62D814E366DCE2 /* ProductionService.swift */,
+				AF918955B6F6D243AF107492 /* ZoneService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CA368250F65E559721997F39 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5A834A8391539F3937F00F41 /* AppState.swift */,
+				C4D2B032828B009D850AE8F0 /* ContentView.swift */,
+				2A77EAF2775A332350A0A30F /* HomesteadPlannerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE8983E0A0D474D76D231236 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				C1A73A5C1CCF09E158AE72FC /* AnimalPlanView.swift */,
+			);
+			path = Animals;
+			sourceTree = "<group>";
+		};
+		D837A9F4FDE3470135F7D1BA /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				88A1EB13DFD1F0838C84E55A /* PlantingCalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		EA77D2ABC2693580C02632ED /* HomesteadPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				CA368250F65E559721997F39 /* App */,
+				625BAFE395C48A12C956B638 /* CoreData */,
+				006CE9F5BEC37FC6844BB6F5 /* Features */,
+				92A38AF1A58EA9FB9D8AFC66 /* Models */,
+				22606FA464B17A2F7125A9B2 /* Resources */,
+				B7998F062F769F907B404C91 /* Services */,
+				797F6D9DA998AB8B5F287477 /* Assets.xcassets */,
+				87F7B94CFA0FEA6305887783 /* HomesteadPlanner.xcdatamodeld */,
+				C70600A49EC6E821C084C317 /* Info.plist */,
+			);
+			path = HomesteadPlanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91BFB5911D7C20FC9BA5ACD6 /* HomesteadPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F3035AFCC494B826786625 /* Build configuration list for PBXNativeTarget "HomesteadPlannerTests" */;
+			buildPhases = (
+				A91CCBF8329873FF878C6E6B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C166033EF01A64AAFB86D9F2 /* PBXTargetDependency */,
+			);
+			name = HomesteadPlannerTests;
+			packageProductDependencies = (
+			);
+			productName = HomesteadPlannerTests;
+			productReference = 2955FA9961D8EB6E7E52AC61 /* HomesteadPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D471F0218D09FB755D1C2A81 /* HomesteadPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4A48EC355E23169A181AEC /* Build configuration list for PBXNativeTarget "HomesteadPlanner" */;
+			buildPhases = (
+				01A52349A52EA4790654EE69 /* Sources */,
+				4072C8ADE7270E2FCFA98B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomesteadPlanner;
+			packageProductDependencies = (
+			);
+			productName = HomesteadPlanner;
+			productReference = 1ABE24E02A1D73986B9C0F08 /* HomesteadPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CA3534BC36A919C7D63176F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					91BFB5911D7C20FC9BA5ACD6 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 2EECC1633F3C372F3BB40695 /* Build configuration list for PBXProject "HomesteadPlanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B4F5707FCE8CA942F9A005B9;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D471F0218D09FB755D1C2A81 /* HomesteadPlanner */,
+				91BFB5911D7C20FC9BA5ACD6 /* HomesteadPlannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4072C8ADE7270E2FCFA98B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F978FDE70DABDCE1BFDC107D /* Assets.xcassets in Resources */,
+				F73D36D1D1F1070EC5983F63 /* animals.json in Resources */,
+				F14A099B91758E7DA546B5B9 /* crops.json in Resources */,
+				45C347F581B6721A4A27E506 /* frostDates.json in Resources */,
+				07F1DC1B0B7072AEC7B246CD /* fruits.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01A52349A52EA4790654EE69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A450320E13F8D6BDAFFBCE88 /* AnimalModels.swift in Sources */,
+				5179A596F6BDA9DEE8856D71 /* AnimalPlanView.swift in Sources */,
+				A662A6A0135D912B41CAE68C /* AppState.swift in Sources */,
+				605918DCCAF10B7FBDB82A16 /* CalendarModels.swift in Sources */,
+				7FF3F73013218CC9FF3E9DBD /* CalendarService.swift in Sources */,
+				A3C643AF7FE9F3ADAB9E1620 /* ContentView.swift in Sources */,
+				5A950760FD09581ACE93DB17 /* CropModels.swift in Sources */,
+				C85FFB77B439FD545E3CB89D /* DataLoader.swift in Sources */,
+				2521A9F063399D743A05C063 /* FamilyMember.swift in Sources */,
+				C2747ECFF469CEB8D50540CB /* FruitModels.swift in Sources */,
+				8C58C3453A54D463A7F4EEF5 /* FruitPlanView.swift in Sources */,
+				AFAF936AA046F14A9054DA6A /* HarvestLogView.swift in Sources */,
+				4EE5A63FED2D0DF131AD8937 /* HarvestModels.swift in Sources */,
+				07A35DEA65E7CD3DD6DA1957 /* HomesteadPlanner.xcdatamodeld in Sources */,
+				51528790883BBC4224C100C4 /* HomesteadPlannerApp.swift in Sources */,
+				E6E15A5CA1FD6AE9EB835D5A /* NutritionService.swift in Sources */,
+				C83B2E59B0EC8210AA0F9FCF /* PersistenceController.swift in Sources */,
+				FE5C4685F4355716800461F7 /* PlanHarvestCompareView.swift in Sources */,
+				CD6BD8D40E70E6525ECEB31E /* PlanRepository.swift in Sources */,
+				35BA7E7430295A174535A3D3 /* PlantingCalendarView.swift in Sources */,
+				F4ADC156501CEED094E43475 /* PrivacyView.swift in Sources */,
+				5DFE327A9A5D9DA9FA51D3E6 /* ProductionModels.swift in Sources */,
+				3C67033A495AD7183DB35433 /* ProductionService.swift in Sources */,
+				6400B4849672CCB8931EB1F1 /* ProductionTableView.swift in Sources */,
+				42347D2116489380BF9B231F /* SettingsView.swift in Sources */,
+				49D12346EA79B6712706B398 /* SplashView.swift in Sources */,
+				90BF8E577635DE2FB8E01D03 /* TermsView.swift in Sources */,
+				DD4F87774A86C585CB2E762D /* WizardStep1View.swift in Sources */,
+				C23B0B2FC1D8AB9C1A27AE08 /* WizardStep2View.swift in Sources */,
+				B6F16125616D7603283E2681 /* WizardStep3View.swift in Sources */,
+				D4AD6DB0FD760D64FE9F93D1 /* WizardStep4View.swift in Sources */,
+				4472C097B39098EEE13A5E0E /* WizardStep5View.swift in Sources */,
+				0B6EEC1D5F31E568545D57FB /* ZoneInfo.swift in Sources */,
+				6576F5CA4B5ED6CA5625DA0A /* ZoneService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91CCBF8329873FF878C6E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BE209F611E0F8AAFBA046C /* HomesteadPlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C166033EF01A64AAFB86D9F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D471F0218D09FB755D1C2A81 /* HomesteadPlanner */;
+			targetProxy = 3C4ECF4C675B98AF8EFE38E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		006A5E646254761F91D446CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4D7A9EA3DD314213AC8190C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.homesteadplanner.app.tests;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomesteadPlanner.app/HomesteadPlanner";
+			};
+			name = Release;
+		};
+		834C4CC32F2DCBF7C07EA205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GG455F4444;
+				INFOPLIST_FILE = HomesteadPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.homesteadplanner.app;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9D82999A11EED71A79FAE5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.homesteadplanner.app.tests;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomesteadPlanner.app/HomesteadPlanner";
+			};
+			name = Debug;
+		};
+		BC9F8C948E115465548077F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA0AFB3441922ED8CE69E722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GG455F4444;
+				INFOPLIST_FILE = HomesteadPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.homesteadplanner.app;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EECC1633F3C372F3BB40695 /* Build configuration list for PBXProject "HomesteadPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				006A5E646254761F91D446CF /* Debug */,
+				BC9F8C948E115465548077F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6C4A48EC355E23169A181AEC /* Build configuration list for PBXNativeTarget "HomesteadPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0AFB3441922ED8CE69E722 /* Debug */,
+				834C4CC32F2DCBF7C07EA205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6F3035AFCC494B826786625 /* Build configuration list for PBXNativeTarget "HomesteadPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D82999A11EED71A79FAE5DA /* Debug */,
+				4D7A9EA3DD314213AC8190C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87F7B94CFA0FEA6305887783 /* HomesteadPlanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92E4A1AB00D91B3206C3CC8B /* HomesteadPlanner.xcdatamodel */,
+			);
+			currentVersion = 92E4A1AB00D91B3206C3CC8B /* HomesteadPlanner.xcdatamodel */;
+			path = HomesteadPlanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0CA3534BC36A919C7D63176F /* Project object */;
+}
